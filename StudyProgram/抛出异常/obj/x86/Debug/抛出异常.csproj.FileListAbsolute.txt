@@ -1,0 +1,6 @@
+D:\程序文件\VS2010学习\StudyProgram\抛出异常\bin\Debug\抛出异常.exe.config
+D:\程序文件\VS2010学习\StudyProgram\抛出异常\bin\Debug\抛出异常.exe
+D:\程序文件\VS2010学习\StudyProgram\抛出异常\bin\Debug\抛出异常.pdb
+D:\程序文件\VS2010学习\StudyProgram\抛出异常\obj\x86\Debug\抛出异常.csprojResolveAssemblyReference.cache
+D:\程序文件\VS2010学习\StudyProgram\抛出异常\obj\x86\Debug\抛出异常.exe
+D:\程序文件\VS2010学习\StudyProgram\抛出异常\obj\x86\Debug\抛出异常.pdb

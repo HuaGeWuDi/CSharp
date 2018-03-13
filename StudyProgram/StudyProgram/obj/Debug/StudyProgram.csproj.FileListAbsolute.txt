@@ -1,0 +1,17 @@
+E:\VS2010学习\StudyProgram\StudyProgram\bin\StudyProgram.dll
+E:\VS2010学习\StudyProgram\StudyProgram\bin\StudyProgram.pdb
+E:\VS2010学习\StudyProgram\StudyProgram\obj\Debug\StudyProgram.dll
+E:\VS2010学习\StudyProgram\StudyProgram\obj\Debug\StudyProgram.pdb
+D:\程序文件\VS2010学习\StudyProgram\StudyProgram\obj\Debug\StudyProgram.csprojResolveAssemblyReference.cache
+D:\程序文件\VS2010学习\StudyProgram\StudyProgram\bin\StudyProgram.dll
+D:\程序文件\VS2010学习\StudyProgram\StudyProgram\bin\StudyProgram.pdb
+D:\程序文件\VS2010学习\StudyProgram\StudyProgram\bin\Assembly学习.exe
+D:\程序文件\VS2010学习\StudyProgram\StudyProgram\bin\Devtalk.EF.CodeFirst.dll
+D:\程序文件\VS2010学习\StudyProgram\StudyProgram\bin\EntityFramework.dll
+D:\程序文件\VS2010学习\StudyProgram\StudyProgram\bin\Microsoft.Web.Infrastructure.dll
+D:\程序文件\VS2010学习\StudyProgram\StudyProgram\bin\WebActivator.dll
+D:\程序文件\VS2010学习\StudyProgram\StudyProgram\bin\Assembly学习.pdb
+D:\程序文件\VS2010学习\StudyProgram\StudyProgram\bin\EntityFramework.xml
+D:\程序文件\VS2010学习\StudyProgram\StudyProgram\obj\Debug\StudyProgram.dll
+D:\程序文件\VS2010学习\StudyProgram\StudyProgram\obj\Debug\StudyProgram.pdb
+D:\程序文件\VS2010学习\StudyProgram\StudyProgram\bin\StudyProgram.XML

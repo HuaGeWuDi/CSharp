@@ -1,0 +1,6 @@
+D:\程序文件\VS2010学习\StudyProgram\设计模式\bin\Debug\设计模式.exe.config
+D:\程序文件\VS2010学习\StudyProgram\设计模式\bin\Debug\设计模式.exe
+D:\程序文件\VS2010学习\StudyProgram\设计模式\bin\Debug\设计模式.pdb
+D:\程序文件\VS2010学习\StudyProgram\设计模式\obj\x86\Debug\设计模式.exe
+D:\程序文件\VS2010学习\StudyProgram\设计模式\obj\x86\Debug\设计模式.pdb
+D:\程序文件\VS2010学习\StudyProgram\设计模式\obj\x86\Debug\设计模式.csprojResolveAssemblyReference.cache

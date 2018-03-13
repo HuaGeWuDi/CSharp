@@ -1,0 +1,8 @@
+D:\程序文件\VS2010学习\StudyProgram\ASPONSE_Words\bin\ASPONSE_Words.exe.config
+D:\程序文件\VS2010学习\StudyProgram\ASPONSE_Words\bin\ASPONSE_Words.exe
+D:\程序文件\VS2010学习\StudyProgram\ASPONSE_Words\bin\ASPONSE_Words.pdb
+D:\程序文件\VS2010学习\StudyProgram\ASPONSE_Words\bin\Aspose.Cells.dll
+D:\程序文件\VS2010学习\StudyProgram\ASPONSE_Words\bin\Aspose.Words.dll
+D:\程序文件\VS2010学习\StudyProgram\ASPONSE_Words\obj\x86\Debug\ASPONSE_Words.exe
+D:\程序文件\VS2010学习\StudyProgram\ASPONSE_Words\obj\x86\Debug\ASPONSE_Words.pdb
+D:\程序文件\VS2010学习\StudyProgram\ASPONSE_Words\obj\x86\Debug\ASPONSE_Words.csprojResolveAssemblyReference.cache

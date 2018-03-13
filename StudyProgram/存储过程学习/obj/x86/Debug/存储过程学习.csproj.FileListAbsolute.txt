@@ -1,0 +1,4 @@
+D:\程序文件\VS2010学习\StudyProgram\存储过程学习\bin\Debug\存储过程学习.exe
+D:\程序文件\VS2010学习\StudyProgram\存储过程学习\bin\Debug\存储过程学习.pdb
+D:\程序文件\VS2010学习\StudyProgram\存储过程学习\obj\x86\Debug\存储过程学习.exe
+D:\程序文件\VS2010学习\StudyProgram\存储过程学习\obj\x86\Debug\存储过程学习.pdb

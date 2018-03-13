@@ -1,0 +1,4 @@
+D:\程序文件\VS2010学习\StudyProgram\ExtenseMethod\bin\Debug\ExtenseMethod.exe
+D:\程序文件\VS2010学习\StudyProgram\ExtenseMethod\bin\Debug\ExtenseMethod.pdb
+D:\程序文件\VS2010学习\StudyProgram\ExtenseMethod\obj\x86\Debug\ExtenseMethod.exe
+D:\程序文件\VS2010学习\StudyProgram\ExtenseMethod\obj\x86\Debug\ExtenseMethod.pdb

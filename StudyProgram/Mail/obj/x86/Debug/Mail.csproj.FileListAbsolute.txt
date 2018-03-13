@@ -1,0 +1,4 @@
+D:\程序文件\VS2010学习\StudyProgram\Mail\bin\Debug\Mail.exe
+D:\程序文件\VS2010学习\StudyProgram\Mail\bin\Debug\Mail.pdb
+D:\程序文件\VS2010学习\StudyProgram\Mail\obj\x86\Debug\Mail.exe
+D:\程序文件\VS2010学习\StudyProgram\Mail\obj\x86\Debug\Mail.pdb

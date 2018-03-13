@@ -1,0 +1,5 @@
+D:\程序文件\VS2010学习\StudyProgram\MVC项目\bin\MVC项目.dll
+D:\程序文件\VS2010学习\StudyProgram\MVC项目\bin\MVC项目.pdb
+D:\程序文件\VS2010学习\StudyProgram\MVC项目\obj\Debug\MVC项目.dll
+D:\程序文件\VS2010学习\StudyProgram\MVC项目\obj\Debug\MVC项目.pdb
+D:\程序文件\VS2010学习\StudyProgram\MVC项目\obj\Debug\MVC项目.csprojResolveAssemblyReference.cache

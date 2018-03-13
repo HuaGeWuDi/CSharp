@@ -1,0 +1,16 @@
+D:\程序文件\VS2010学习\StudyProgram\TempControl\bin\Debug\TempControl.exe
+D:\程序文件\VS2010学习\StudyProgram\TempControl\bin\Debug\TempControl.pdb
+D:\程序文件\VS2010学习\StudyProgram\TempControl\obj\x86\Debug\TempControl.exe
+D:\程序文件\VS2010学习\StudyProgram\TempControl\obj\x86\Debug\TempControl.pdb
+D:\程序文件\VS2010学习\StudyProgram\TempControl\bin\Debug\TempControl.exe.config
+D:\程序文件\VS2010学习\StudyProgram\TempControl\bin\Debug\StudyProgram.dll
+D:\程序文件\VS2010学习\StudyProgram\TempControl\bin\Debug\EntityFramework.dll
+D:\程序文件\VS2010学习\StudyProgram\TempControl\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\程序文件\VS2010学习\StudyProgram\TempControl\bin\Debug\Newtonsoft.Json.dll
+D:\程序文件\VS2010学习\StudyProgram\TempControl\bin\Debug\WebActivator.dll
+D:\程序文件\VS2010学习\StudyProgram\TempControl\bin\Debug\Assembly学习.exe
+D:\程序文件\VS2010学习\StudyProgram\TempControl\bin\Debug\StudyProgram.pdb
+D:\程序文件\VS2010学习\StudyProgram\TempControl\bin\Debug\StudyProgram.xml
+D:\程序文件\VS2010学习\StudyProgram\TempControl\bin\Debug\EntityFramework.xml
+D:\程序文件\VS2010学习\StudyProgram\TempControl\bin\Debug\Assembly学习.pdb
+D:\程序文件\VS2010学习\StudyProgram\TempControl\obj\x86\Debug\TempControl.csprojResolveAssemblyReference.cache

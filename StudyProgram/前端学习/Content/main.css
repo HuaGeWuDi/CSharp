@@ -1,0 +1,15 @@
+﻿body 
+{
+     /*font: 14px "宋体" ,arial,sans-serif;*/
+     font:"宋体",arial,sans-serif;
+}
+
+.head
+{
+  width:20%;
+  height:20px;
+  margin:20px auto;
+  background:red;  
+  text-align:center; 
+  font-size:15px;
+}

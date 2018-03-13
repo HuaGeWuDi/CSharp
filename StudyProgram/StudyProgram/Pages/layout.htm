@@ -1,0 +1,284 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<title>框架</title>
+	<style>
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 1px solid red;
+}
+
+html {
+	height: 100%;
+	min-height: 100%;
+	font-family: '微软雅黑';
+	font-size: 62.5%;
+}
+
+body {
+	height: 100%;
+	min-height: 100%;
+	font-size: 16px;
+	font-size: 1.6rem;
+}
+
+h1 {
+	font-size: 32px;
+	font-size: 3.2rem;
+}
+
+h2 {
+	font-size: 24px;
+	font-size: 2.4rem;
+}
+
+h3 {
+	font-size: 18px;
+	font-size: 1.8rem;
+}
+
+h4 {
+	font-size: 16px;
+	font-size: 1.6rem;
+}
+
+h5 {
+	font-size: 14px;
+	font-size: 1.4rem;
+}
+
+h6 {
+	font-size: 12px;
+	font-size: 1.2rem;
+}
+
+summary, legend, caption, address, cite code, dfn, i, em, strong, var, mark, small, p, pre, input, button {
+	font-size: 16px;
+	font-size: 1.6rem;
+	font-style: normal;
+}
+
+a {
+	font-size: 16px;
+	font-size: 1.6rem;
+	text-decoration: none;
+	color: #444;
+}
+
+a:hover {
+	color: #ff858e;
+}
+
+.clearfix:after {
+	display: block;
+	clear: both;
+	height: 0;
+	content: '\200B';
+}
+
+.clearfix {
+	*zoom: 1;
+}
+
+
+/*浮动布局*/
+
+.a1 {
+	width: 1170px;
+	height: 80px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	background: #123;
+}
+
+.a2 {
+	width: 1170px;
+	margin: 0 auto;
+	background: #000;
+}
+
+.a21 {
+	float: left;
+	width: 150px;
+	height: 500px;
+	margin-bottom: 10px;
+	background: lightcyan;
+}
+
+.a22 {
+	float: left;
+	width: 800px;
+	height: 500px;
+	margin-bottom: 10px;
+	background: lightblue;
+}
+
+.a23 {
+	float: right;
+	width: 220px;
+	height: 500px;
+	margin-bottom: 10px;
+	background: #958;
+}
+
+.a3 {
+	width: 1170px;
+	height: 80px;
+	line-height: 80px;
+	margin: 0 auto;
+	background: #090;
+}
+
+
+/*position属性+display属性*/
+
+.wrap {
+	position: relative;
+	top: 50px;
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.b1 {
+	width: 1170px;
+	height: 80px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	background: #890;
+}
+
+.b2 {
+	display: inline-block;
+	width: 1170px;
+	margin: 0 auto;
+	font-size: 0;
+	background: #000;
+}
+
+.b21 {
+	display: inline-block;
+	width: 150px;
+	height: 500px;
+	margin-bottom: 10px;
+	font-size: 16px;
+	vertical-align: middle;
+	background: #090;
+	*display: inline;
+	*zoom: 1;
+}
+
+.b22 {
+	display: inline-block;
+	width: 800px;
+	height: 500px;
+	margin-bottom: 10px;
+	font-size: 16px;
+	vertical-align: middle;
+	background: #078;
+	*display: inline;
+	*zoom: 1;
+}
+
+.b23 {
+	display: inline-block;
+	width: 220px;
+	height: 500px;
+	margin-bottom: 10px;
+	font-size: 16px;
+	vertical-align: middle;
+	background: #876;
+	*display: inline;
+	*zoom: 1;
+}
+
+.b3 {
+	width: 1170px;
+	height: 80px;
+	margin: 0 auto;
+	background: #909;
+}
+
+
+/*响应式布局flex;设为Flex布局以后，子元素的float、clear和vertical-align属性将失效 ie10+ */
+
+.c1 {
+	position: relative;
+	top: 150px;
+	display: flex;
+	width: 1170px;
+	margin: 0 auto;
+	background: #fff;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.c10 {
+	width: 1170px;
+	height: 80px;
+	margin-bottom: 10px;
+	background: #060;
+}
+
+.c11 {
+	width: 150px;
+	height: 600px;
+	background: #090;
+}
+
+.c12 {
+	width: 800px;
+	height: 600px;
+	background: #078;
+}
+
+.c13 {
+	width: 220px;
+	height: 600px;
+	margin-bottom: 10px;
+	background: #876;
+}
+
+.c14 {
+	width: 1170px;
+	height: 100px;
+	background: #882;
+}
+
+	</style>
+</head>
+
+<body>
+	<!-- flow布局 -->
+	<div class="a1"></div>
+	<div class="a2 clearfix">
+		<div class="a21"></div>
+		<div class="a22"></div>
+		<div class="a23"></div>
+	</div>
+	<div class="a3"></div>
+	<!-- position+display布局 -->
+	<div class="wrap">
+		<div class="b1"></div>
+		<div class="b2">
+			<div class="b21"></div>
+			<div class="b22"></div>
+			<div class="b23"></div>
+		</div>
+		<div class="b3"></div>
+	</div>
+	<!-- flex响应式布局 -->
+	<div class="c1">
+		<div class="c10"></div>
+		<div class="c11"></div>
+		<div class="c12"></div>
+		<div class="c13"></div>
+		<div class="c14"></div>
+	</div>
+</body>
+
+</html>

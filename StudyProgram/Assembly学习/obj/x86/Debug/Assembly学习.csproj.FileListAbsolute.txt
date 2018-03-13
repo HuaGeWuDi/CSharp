@@ -1,0 +1,4 @@
+D:\程序文件\VS2010学习\StudyProgram\Assembly学习\bin\Debug\Assembly学习.exe
+D:\程序文件\VS2010学习\StudyProgram\Assembly学习\bin\Debug\Assembly学习.pdb
+D:\程序文件\VS2010学习\StudyProgram\Assembly学习\obj\x86\Debug\Assembly学习.exe
+D:\程序文件\VS2010学习\StudyProgram\Assembly学习\obj\x86\Debug\Assembly学习.pdb

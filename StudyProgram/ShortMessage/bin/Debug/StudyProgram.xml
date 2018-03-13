@@ -1,0 +1,691 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>StudyProgram</name>
+    </assembly>
+    <members>
+        <member name="T:StudyProgram.WebService.MyWebService">
+            <summary>
+            MyWebService 的摘要说明
+            </summary>
+        </member>
+        <member name="T:StudyProgram.WebService.PageBaseWebservice">
+            <summary>
+            PageBaseWebservice 的摘要说明
+            </summary>
+        </member>
+        <member name="M:StudyProgram.WebService.PageBaseWebservice.Validation">
+            <summary>
+            
+            </summary>
+            <param name="_MySoapHeader"></param>
+            <returns></returns>
+        </member>
+        <member name="T:StudyProgram.WebService.PageBaseWebservice.MySoapHeader">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:StudyProgram.WebService.PageBaseWebservice.MySoapHeader.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:StudyProgram.WebService.PageBaseWebservice.MySoapHeader.#ctor(System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="Name"></param>
+            <param name="Password"></param>
+        </member>
+        <member name="P:StudyProgram.WebService.PageBaseWebservice.MySoapHeader.Name">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:StudyProgram.WebService.PageBaseWebservice.MySoapHeader.Password">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:StudyProgram.Pages.日历.form1">
+            <summary>
+            form1 控件。
+            </summary>
+            <remarks>
+            自动生成的字段。
+            若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+            </remarks>
+        </member>
+        <member name="F:StudyProgram.Pages.日历.GridView1">
+            <summary>
+            GridView1 控件。
+            </summary>
+            <remarks>
+            自动生成的字段。
+            若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+            </remarks>
+        </member>
+        <member name="F:StudyProgram.Pages.日历.rept">
+            <summary>
+            rept 控件。
+            </summary>
+            <remarks>
+            自动生成的字段。
+            若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+            </remarks>
+        </member>
+        <member name="F:StudyProgram.Pages.DownLoad_Zip.form1">
+            <summary>
+            form1 控件。
+            </summary>
+            <remarks>
+            自动生成的字段。
+            若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+            </remarks>
+        </member>
+        <member name="F:StudyProgram.Pages.DownLoad_Zip.btn_down">
+            <summary>
+            btn_down 控件。
+            </summary>
+            <remarks>
+            自动生成的字段。
+            若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+            </remarks>
+        </member>
+        <member name="T:ListFileManager">
+            <summary>
+            FileManager 的摘要说明
+            </summary>
+        </member>
+        <member name="T:Handler">
+            <summary>
+            Handler 的摘要说明
+            </summary>
+        </member>
+        <member name="T:StudyProgram.WebService.test">
+            <summary>
+            test 的摘要说明
+            </summary>
+        </member>
+        <member name="T:PathFormatter">
+            <summary>
+            PathFormater 的摘要说明
+            </summary>
+        </member>
+        <member name="M:StudyProgram.Common.Common.GetJsonByPage(System.Web.UI.Page,System.String)">
+            <summary>
+            aspx用Ajax访问自己cs后面方法
+            </summary>
+            <param name="page"></param>
+            <param name="method"></param>
+            <returns></returns>
+        </member>
+        <member name="F:StudyProgram.Account.ChangePassword.ChangeUserPassword">
+            <summary>
+            ChangeUserPassword 控件。
+            </summary>
+            <remarks>
+            自动生成的字段。
+            若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+            </remarks>
+        </member>
+        <member name="F:StudyProgram.Pages.test_AutoPostBack_UpdatePanel.form1">
+            <summary>
+            form1 控件。
+            </summary>
+            <remarks>
+            自动生成的字段。
+            若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+            </remarks>
+        </member>
+        <member name="F:StudyProgram.Pages.test_AutoPostBack_UpdatePanel.Textbox1">
+            <summary>
+            Textbox1 控件。
+            </summary>
+            <remarks>
+            自动生成的字段。
+            若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+            </remarks>
+        </member>
+        <member name="F:StudyProgram.Pages.testurl_1.form1">
+            <summary>
+            form1 控件。
+            </summary>
+            <remarks>
+            自动生成的字段。
+            若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+            </remarks>
+        </member>
+        <member name="F:StudyProgram.Pages.DatatableToJson.form1">
+            <summary>
+            form1 控件。
+            </summary>
+            <remarks>
+            自动生成的字段。
+            若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+            </remarks>
+        </member>
+        <member name="F:StudyProgram.Pages.多个Table.form1">
+            <summary>
+            form1 控件。
+            </summary>
+            <remarks>
+            自动生成的字段。
+            若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+            </remarks>
+        </member>
+        <member name="T:NotSupportedHandler">
+            <summary>
+            NotSupportedHandler 的摘要说明
+            </summary>
+        </member>
+        <member name="T:StudyProgram.Common.TreeHelper">
+            <summary>
+            Tree帮助类
+            </summary>
+        </member>
+        <member name="M:StudyProgram.Common.TreeHelper.GetTreeJsonTest(System.Data.DataTable,System.String,System.String,System.String,System.String)">
+            <summary>
+            获取EasyUi——tree的JSON格式
+            </summary>
+            <param name="tabel">数据</param>
+            <param name="pid">父Id的字段名</param>
+            <param name="id">id的字段名</param>
+            <param name="text">文本字段名</param>
+            <param name="p_val">根节点的父Id的值（0或者null等等）</param>
+            <returns></returns>
+        </member>
+        <member name="M:StudyProgram.Common.TreeHelper.GetChild(StudyProgram.Common.Tree,System.Data.DataTable,System.String,System.String,System.String)">
+            <summary>
+            获取子节点
+            </summary>
+            <param name="node">父节点</param>
+            <param name="dt">数据源</param>
+            <param name="pid">父Id的字段名</param>
+            <param name="id">id的字段名</param>
+            <param name="text">文本字段名</param>     
+            <returns></returns>
+        </member>
+        <member name="M:StudyProgram.Common.TreeHelper.GetTreeJsonByList(System.Collections.Generic.List{StudyProgram.Common.Data},System.String)">
+            <summary>
+            List转EasyUi_tree格式
+            </summary>
+            <param name="lstData"></param>
+            <param name="p_val"></param>
+            <returns></returns>
+        </member>
+        <member name="M:StudyProgram.Common.TreeHelper.ConvertToList``1(System.Data.DataTable)">
+            <summary>
+            DataTable转List
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="dt"></param>
+            <returns></returns>
+        </member>
+        <member name="M:StudyProgram.Common.TreeHelper.ConvertToDataTable``1(System.Collections.Generic.List{``0})">
+            <summary>
+            List转DataTable
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="list"></param>
+            <returns></returns>
+        </member>
+        <member name="F:StudyProgram.SiteMaster.HeadContent">
+            <summary>
+            HeadContent 控件。
+            </summary>
+            <remarks>
+            自动生成的字段。
+            若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+            </remarks>
+        </member>
+        <member name="F:StudyProgram.SiteMaster.MasterPageScriptManager">
+            <summary>
+            MasterPageScriptManager 控件。
+            </summary>
+            <remarks>
+            自动生成的字段。
+            若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+            </remarks>
+        </member>
+        <member name="F:StudyProgram.SiteMaster.HeadLoginView">
+            <summary>
+            HeadLoginView 控件。
+            </summary>
+            <remarks>
+            自动生成的字段。
+            若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+            </remarks>
+        </member>
+        <member name="F:StudyProgram.SiteMaster.HeadHomeLink">
+            <summary>
+            HeadHomeLink 控件。
+            </summary>
+            <remarks>
+            自动生成的字段。
+            若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+            </remarks>
+        </member>
+        <member name="F:StudyProgram.SiteMaster.HeadAboutLink">
+            <summary>
+            HeadAboutLink 控件。
+            </summary>
+            <remarks>
+            自动生成的字段。
+            若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+            </remarks>
+        </member>
+        <member name="F:StudyProgram.SiteMaster.MainContent">
+            <summary>
+            MainContent 控件。
+            </summary>
+            <remarks>
+            自动生成的字段。
+            若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+            </remarks>
+        </member>
+        <member name="M:StudyProgram.LeiKu.MessageHelper.#ctor(System.Boolean,System.String,System.String,System.String,System.String)">
+            <summary>
+            带参构造函数
+            </summary>
+            <param name="isMD5">是否需要MD5加密</param>
+            <param name="userid">申请的用户名</param>
+            <param name="key">申请的秘钥</param>
+            <param name="mob">发送的手机（多个需要以','连接）</param>
+            <param name="text">信息内容（注意签名格式【XX网】）</param>
+        </member>
+        <member name="F:StudyProgram.Pages.TreeView_Study.form1">
+            <summary>
+            form1 控件。
+            </summary>
+            <remarks>
+            自动生成的字段。
+            若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+            </remarks>
+        </member>
+        <member name="F:StudyProgram.Pages.TreeView_Study.SysModuleTree">
+            <summary>
+            SysModuleTree 控件。
+            </summary>
+            <remarks>
+            自动生成的字段。
+            若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+            </remarks>
+        </member>
+        <member name="F:StudyProgram.Pages.TreeView_Study.Treeview1">
+            <summary>
+            Treeview1 控件。
+            </summary>
+            <remarks>
+            自动生成的字段。
+            若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+            </remarks>
+        </member>
+        <member name="F:StudyProgram.Pages.testWebMethod.form1">
+            <summary>
+            form1 控件。
+            </summary>
+            <remarks>
+            自动生成的字段。
+            若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+            </remarks>
+        </member>
+        <member name="T:ConfigHandler">
+            <summary>
+            Config 的摘要说明
+            </summary>
+        </member>
+        <member name="M:StudyProgram.LeiKu.DrawImage.GetRandomColor(System.Int32)">
+            <summary>  
+            生成随机颜色  
+            </summary>  
+            <returns></returns>  
+        </member>
+        <member name="M:StudyProgram.LeiKu.DrawImage.DrawRectangle(System.Drawing.Bitmap,System.Drawing.Rectangle)">
+            <summary>  
+            绘制区域框，框何其阴影  
+            </summary>  
+            <param name="image">图形</param>  
+            <param name="rect">矩形框对象</param>  
+            <returns>图形</returns>  
+        </member>
+        <member name="M:StudyProgram.LeiKu.DrawImage.DrawDes(System.Drawing.Bitmap,System.Drawing.Rectangle,System.Drawing.Color,System.String,System.Drawing.Font,System.Int32)">
+            <summary>  
+            绘制图例信息  
+            </summary>  
+            <param name="image">图像</param>  
+            <param name="rect">第一个矩形框</param>  
+            <param name="c">颜色</param>  
+            <param name="DesStr">图例说明文字</param>  
+            <param name="f">文字样式</param>  
+            <param name="i">图例说明序号</param>  
+            <returns>图形</returns>  
+        </member>
+        <member name="M:StudyProgram.LeiKu.DrawImage.GenerateImage(System.String)">
+            <summary>  
+            生成图片，统一设置图片大小、背景色,图片布局，及标题  
+            </summary>  
+            <returns>图片</returns>  
+        </member>
+        <member name="M:StudyProgram.LeiKu.DrawImage.Sum(System.Decimal[])">
+            <summary>  
+            计算数值综合  
+            </summary>  
+            <param name="Value"></param>  
+            <returns></returns>  
+        </member>
+        <member name="M:StudyProgram.LeiKu.DrawImage.GetItemRate(System.Decimal[])">
+            <summary>  
+            计算各项比例  
+            </summary>  
+            <param name="Value"></param>  
+            <returns></returns>  
+        </member>
+        <member name="M:StudyProgram.LeiKu.DrawImage.GetItemAngle(System.Decimal[])">
+            <summary>  
+            根据比例，计算各项角度值  
+            </summary>  
+            <param name="ItemRate"></param>  
+            <returns></returns>  
+        </member>
+        <member name="M:StudyProgram.LeiKu.DrawImage.GetPieImage(System.String,System.String[],System.Decimal[])">
+            <summary>  
+            绘制饼图(主要是分析不同类型的数值所占比例)，参数有图的标题，项目名称，项目的数值，名称和数值都是长度对应的  
+            </summary>  
+            <param name="Title">图的标题</param>  
+            <param name="ItemName">项目名称</param>  
+            <param name="ItemValue">项目的数值</param>  
+            <returns>Bitmap图形</returns>  
+        </member>
+        <member name="M:StudyProgram.LeiKu.DrawImage.GetYValue(System.Decimal[],System.Int32)">
+            <summary>  
+            获取Y轴坐标的点分布值  
+            </summary>  
+            <param name="ItemValue">项目数值</param>  
+            <param name="YCount">Y轴点的数量</param>  
+            <returns>图形</returns>  
+        </member>
+        <member name="M:StudyProgram.LeiKu.DrawImage.DrawCoordinate(System.Drawing.Bitmap,System.String[],System.Decimal[])">
+            <summary>  
+            绘制坐标轴，X、Y轴的坐标值  
+            </summary>  
+            <param name="image">图像</param>  
+            <param name="ItemName">项目名称</param>  
+            <param name="ItemValue">项目数值</param>  
+            <returns>图像</returns>  
+        </member>
+        <member name="M:StudyProgram.LeiKu.DrawImage.GetCoordinateValue(System.Decimal,System.Decimal[])">
+            <summary>  
+            获取某个数值在坐标系中的位置  
+            </summary>  
+            <param name="Value">当前数值</param>  
+            <param name="ItemValue">所有数值</param>  
+            <returns>位置</returns>  
+        </member>
+        <member name="M:StudyProgram.LeiKu.DrawImage.GetLineImage(System.String,System.String[],System.Decimal[])">
+            <summary>  
+            绘制曲线图(主要是分析不同类型的数值所占比例，或者同意项目不同状态下的值和趋势)，参数有图的标题，项目名称，项目的数值，名称和数值都是长度对应的  
+            </summary>  
+            <param name="Title">图的标题</param>  
+            <param name="ItemName">项目名称</param>  
+            <param name="ItemValue">项目的数值</param>  
+            <returns>Bitmap图形</returns>  
+        </member>
+        <member name="M:StudyProgram.LeiKu.DrawImage.GetColumnImage(System.String,System.String[],System.Decimal[])">
+            <summary>  
+            绘制柱状图(主要是分析某一个项目在不同状态下的值，获取其发展趋势)，参数有图的标题，项目名称，项目的数值，名称和数值都是长度对应的  
+            </summary>  
+            <param name="Title">图的标题</param>  
+            <param name="ItemName">项目名称</param>  
+            <param name="ItemValue">项目的数值</param>  
+            <returns>Bitmap图形</returns>  
+        </member>
+        <member name="M:StudyProgram.LeiKu.DrawImage.GetMax(System.Decimal[][])">
+            <summary>  
+            获取二维数组中的最大值  
+            </summary>  
+            <param name="ItemValues"></param>  
+            <returns></returns>  
+        </member>
+        <member name="M:StudyProgram.LeiKu.DrawImage.GetMin(System.Decimal[][])">
+            <summary>  
+            获取二维数组中的最小值  
+            </summary>  
+            <param name="ItemValues"></param>  
+            <returns></returns>  
+        </member>
+        <member name="M:StudyProgram.LeiKu.DrawImage.GetYValue(System.Decimal[][],System.Int32)">
+            <summary>  
+            获取Y轴上点的数值  
+            </summary>  
+            <param name="ItemValues"></param>  
+            <param name="YCount"></param>  
+            <returns></returns>  
+        </member>
+        <member name="M:StudyProgram.LeiKu.DrawImage.GetCoordinateValue(System.Decimal,System.Decimal[][])">
+            <summary>  
+            获取某个数值在坐标系中的位置  
+            </summary>  
+            <param name="Value">当前数值</param>  
+            <param name="ItemValue">所有数值</param>  
+            <returns>位置</returns>  
+        </member>
+        <member name="M:StudyProgram.LeiKu.DrawImage.DrawCoordinate(System.Drawing.Bitmap,System.String[],System.Decimal[][])">
+            <summary>  
+            绘制坐标轴，X、Y轴的坐标值  
+            </summary>  
+            <param name="image">图像</param>  
+            <param name="ItemName">项目名称</param>  
+            <param name="ItemValue">多组项目数值</param>  
+            <returns>图像</returns>  
+        </member>
+        <member name="M:StudyProgram.LeiKu.DrawImage.GetMulLineImage(System.String,System.String[],System.Decimal[][],System.String[])">
+            <summary>  
+            绘制多组数据的曲线图  
+            </summary>  
+            <param name="Title">主标题</param>  
+            <param name="ItemName">数据项名称</param>  
+            <param name="ItemValues">多组数据集合</param>  
+            <param name="ItemsName">各组的名称</param>  
+            <returns></returns>  
+        </member>
+        <member name="T:CrawlerHandler">
+            <summary>
+            Crawler 的摘要说明
+            </summary>
+        </member>
+        <member name="F:StudyProgram.Account.Register.RegisterUser">
+            <summary>
+            RegisterUser 控件。
+            </summary>
+            <remarks>
+            自动生成的字段。
+            若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+            </remarks>
+        </member>
+        <member name="F:StudyProgram.Account.Register.RegisterUserWizardStep">
+            <summary>
+            RegisterUserWizardStep 控件。
+            </summary>
+            <remarks>
+            自动生成的字段。
+            若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+            </remarks>
+        </member>
+        <member name="F:StudyProgram.Account.Login.RegisterHyperLink">
+            <summary>
+            RegisterHyperLink 控件。
+            </summary>
+            <remarks>
+            自动生成的字段。
+            若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+            </remarks>
+        </member>
+        <member name="F:StudyProgram.Account.Login.LoginUser">
+            <summary>
+            LoginUser 控件。
+            </summary>
+            <remarks>
+            自动生成的字段。
+            若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+            </remarks>
+        </member>
+        <member name="F:StudyProgram.Pages.饼图.form1">
+            <summary>
+            form1 控件。
+            </summary>
+            <remarks>
+            自动生成的字段。
+            若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+            </remarks>
+        </member>
+        <member name="F:StudyProgram.Pages.饼图.Image1">
+            <summary>
+            Image1 控件。
+            </summary>
+            <remarks>
+            自动生成的字段。
+            若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+            </remarks>
+        </member>
+        <member name="F:StudyProgram.Pages.缓存Test.form1">
+            <summary>
+            form1 控件。
+            </summary>
+            <remarks>
+            自动生成的字段。
+            若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+            </remarks>
+        </member>
+        <member name="F:StudyProgram.Pages.缓存Test.Label1">
+            <summary>
+            Label1 控件。
+            </summary>
+            <remarks>
+            自动生成的字段。
+            若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+            </remarks>
+        </member>
+        <member name="T:UploadHandler">
+            <summary>
+            UploadHandler 的摘要说明
+            </summary>
+        </member>
+        <member name="P:UploadConfig.PathFormat">
+            <summary>
+            文件命名规则
+            </summary>
+        </member>
+        <member name="P:UploadConfig.UploadFieldName">
+            <summary>
+            上传表单域名称
+            </summary>
+        </member>
+        <member name="P:UploadConfig.SizeLimit">
+            <summary>
+            上传大小限制
+            </summary>
+        </member>
+        <member name="P:UploadConfig.AllowExtensions">
+            <summary>
+            上传允许的文件格式
+            </summary>
+        </member>
+        <member name="P:UploadConfig.Base64">
+            <summary>
+            文件是否以 Base64 的形式上传
+            </summary>
+        </member>
+        <member name="P:UploadConfig.Base64Filename">
+            <summary>
+            Base64 字符串所表示的文件名
+            </summary>
+        </member>
+        <member name="T:StudyProgram.Common.DBHelper">
+            <summary>
+            执行数据库操纵
+            </summary>
+        </member>
+        <member name="M:StudyProgram.Common.DBHelper.ExecuteDataset(System.String,System.Data.CommandType,System.String)">
+            <summary>
+            执行不带参的Sql或存储过程 查询语句
+            </summary>
+            <param name="sqlConnection"></param>
+            <param name="commandType"></param>
+            <param name="commandText"></param>
+            <returns></returns>
+        </member>
+        <member name="M:StudyProgram.Common.DBHelper.ExecuteDataset(System.String,System.Data.CommandType,System.String,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+             执行带参的Sql或存储过程 查询语句
+            </summary>
+            <param name="sqlConnection"></param>
+            <param name="commandType"></param>
+            <param name="commandText"></param>
+            <param name="sqlParameters"></param>
+            <returns></returns>
+        </member>
+        <member name="M:StudyProgram.Common.DBHelper.ExecuteNonQuery(System.String,System.Data.CommandType,System.String)">
+            <summary>
+            执行不带参的Sql或存储过程 影响行数
+            </summary>
+            <param name="sqlConnection"></param>
+            <param name="commandType"></param>
+            <param name="commandText"></param>
+            <returns></returns>
+        </member>
+        <member name="M:StudyProgram.Common.DBHelper.ExecuteNonQuery(System.String,System.Data.CommandType,System.String,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            执行带参的Sql或存储过程 影响行数
+            </summary>
+            <param name="sqlConnection"></param>
+            <param name="commandType"></param>
+            <param name="commandText"></param>
+            <param name="sqlParameters"></param>
+            <returns></returns>
+        </member>
+        <member name="M:StudyProgram.Common.DBHelper.ExecuteReader(System.String,System.Data.CommandType,System.String)">
+            <summary>
+            执行不带参的Sql或存储过程 SqlDataReader
+            </summary>
+            <param name="sqlConnection"></param>
+            <param name="commandType"></param>
+            <param name="commandText"></param>
+            <returns></returns>
+        </member>
+        <member name="M:StudyProgram.Common.DBHelper.ExecuteReader(System.String,System.Data.CommandType,System.String,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            执行带参的Sql或存储过程 SqlDataReader
+            </summary>
+            <param name="sqlConnection"></param>
+            <param name="commandType"></param>
+            <param name="commandText"></param>
+            <param name="sqlParameters"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Config">
+            <summary>
+            Config 的摘要说明
+            </summary>
+        </member>
+        <member name="F:StudyProgram.Pages.Study.form1">
+            <summary>
+            form1 控件。
+            </summary>
+            <remarks>
+            自动生成的字段。
+            若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+            </remarks>
+        </member>
+        <member name="F:StudyProgram.Pages.Study.dataGrid">
+            <summary>
+            dataGrid 控件。
+            </summary>
+            <remarks>
+            自动生成的字段。
+            若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+            </remarks>
+        </member>
+    </members>
+</doc>

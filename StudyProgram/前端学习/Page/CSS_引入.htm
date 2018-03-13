@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="../Content/main.css" rel="stylesheet" type="text/css" />
+    <link rel="alternate stylesheet" type="text/css" href="../Content/optinal.css" title="sheet2" />
+    <!--这边选择样式，要加个title，否则选择不到样式-->
+    <style>
+       <!-- @import url("../Content/optinal.css"); 这边也可以这样引用CSS -->
+       .test
+       {
+      font-size:20px;
+       }
+       .test-font
+       {
+        height:240px;
+        width:240px;
+        background:lightblue;
+        text-align:center;
+        line-height:240px;     
+       }
+       li {
+    width: 200px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    display:inline-block;//如果是一个inline标签，还需要加入这一行代码，因为对于inline标签，设置width没有用。这里是li标签，本来就是block，因此不需要。
+}
+    </style>
+</head>
+<body>
+    <div class="head">
+        我是huage
+    </div>
+    <div class="option">
+        我是谁</div>
+
+        <strong>我被Strong标签加粗</strong>
+        <b>我是被B标签加粗</b>
+        <font color="black">我是黑体字</font>
+        <big>写上你想写的字</big>
+        <br />
+
+    <button>宋体</button><button>微软雅黑</button><button>arial</button><button>serif</button>
+    <div class="test">
+        <div class="test-font" id="ceshi">
+            我是测试文字
+        </div>
+    </div>
+    <ul>
+    <li>这是个短句子</li>
+    <li>403是因为服务器拒绝了你的地址请求，或者你根本没权限访问网站，提供身份验证也没用，也就是说，用户被禁止访问了。然而除非与Web服务器管理员联系，否则一旦遇到403状态码都无法自行解决。</li>
+</ul>
+    <script type="text/javascript">
+        var btns = document.getElementsByTagName("button");
+        for (var i = 0; i < btns.length; i++) {
+            btns[i].onclick = function () {
+                ceshi.style.fontFamily = this.innerHTML;
+                ceshi.style.color = 'red';
+            }
+        }
+
+    </script>
+</body>
+</html>

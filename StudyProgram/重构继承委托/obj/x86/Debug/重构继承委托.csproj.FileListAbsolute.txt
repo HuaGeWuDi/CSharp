@@ -1,0 +1,5 @@
+D:\程序文件\VS2010学习\StudyProgram\重构继承委托\bin\Debug\重构继承委托.exe.config
+D:\程序文件\VS2010学习\StudyProgram\重构继承委托\bin\Debug\重构继承委托.exe
+D:\程序文件\VS2010学习\StudyProgram\重构继承委托\bin\Debug\重构继承委托.pdb
+D:\程序文件\VS2010学习\StudyProgram\重构继承委托\obj\x86\Debug\重构继承委托.exe
+D:\程序文件\VS2010学习\StudyProgram\重构继承委托\obj\x86\Debug\重构继承委托.pdb

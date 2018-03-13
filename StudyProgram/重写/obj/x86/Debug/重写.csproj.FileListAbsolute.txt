@@ -1,0 +1,7 @@
+D:\程序文件\VS2010学习\StudyProgram\重写\bin\Debug\重写.exe
+D:\程序文件\VS2010学习\StudyProgram\重写\bin\Debug\重写.pdb
+D:\程序文件\VS2010学习\StudyProgram\重写\bin\Debug\baseClass.dll
+D:\程序文件\VS2010学习\StudyProgram\重写\bin\Debug\baseClass.pdb
+D:\程序文件\VS2010学习\StudyProgram\重写\obj\x86\Debug\重写.csprojResolveAssemblyReference.cache
+D:\程序文件\VS2010学习\StudyProgram\重写\obj\x86\Debug\重写.exe
+D:\程序文件\VS2010学习\StudyProgram\重写\obj\x86\Debug\重写.pdb

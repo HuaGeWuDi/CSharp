@@ -1,0 +1,5 @@
+D:\程序文件\VS2010学习\StudyProgram\baseClass\bin\Debug\baseClass.dll
+D:\程序文件\VS2010学习\StudyProgram\baseClass\bin\Debug\baseClass.pdb
+D:\程序文件\VS2010学习\StudyProgram\baseClass\obj\Debug\baseClass.dll
+D:\程序文件\VS2010学习\StudyProgram\baseClass\obj\Debug\baseClass.pdb
+D:\程序文件\VS2010学习\StudyProgram\baseClass\obj\Debug\baseClass.csprojResolveAssemblyReference.cache

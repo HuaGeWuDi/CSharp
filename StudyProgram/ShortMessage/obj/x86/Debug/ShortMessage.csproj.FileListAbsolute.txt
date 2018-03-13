@@ -1,0 +1,16 @@
+D:\程序文件\VS2010学习\StudyProgram\ShortMessage\bin\Debug\ShortMessage.exe.config
+D:\程序文件\VS2010学习\StudyProgram\ShortMessage\bin\Debug\ShortMessage.exe
+D:\程序文件\VS2010学习\StudyProgram\ShortMessage\bin\Debug\ShortMessage.pdb
+D:\程序文件\VS2010学习\StudyProgram\ShortMessage\bin\Debug\StudyProgram.dll
+D:\程序文件\VS2010学习\StudyProgram\ShortMessage\bin\Debug\EntityFramework.dll
+D:\程序文件\VS2010学习\StudyProgram\ShortMessage\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\程序文件\VS2010学习\StudyProgram\ShortMessage\bin\Debug\Newtonsoft.Json.dll
+D:\程序文件\VS2010学习\StudyProgram\ShortMessage\bin\Debug\WebActivator.dll
+D:\程序文件\VS2010学习\StudyProgram\ShortMessage\bin\Debug\Assembly学习.exe
+D:\程序文件\VS2010学习\StudyProgram\ShortMessage\bin\Debug\StudyProgram.pdb
+D:\程序文件\VS2010学习\StudyProgram\ShortMessage\bin\Debug\StudyProgram.xml
+D:\程序文件\VS2010学习\StudyProgram\ShortMessage\bin\Debug\EntityFramework.xml
+D:\程序文件\VS2010学习\StudyProgram\ShortMessage\bin\Debug\Assembly学习.pdb
+D:\程序文件\VS2010学习\StudyProgram\ShortMessage\obj\x86\Debug\ShortMessage.exe
+D:\程序文件\VS2010学习\StudyProgram\ShortMessage\obj\x86\Debug\ShortMessage.pdb
+D:\程序文件\VS2010学习\StudyProgram\ShortMessage\obj\x86\Debug\ShortMessage.csprojResolveAssemblyReference.cache

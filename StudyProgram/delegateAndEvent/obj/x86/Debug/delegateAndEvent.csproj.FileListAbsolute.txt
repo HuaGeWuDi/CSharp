@@ -1,0 +1,4 @@
+D:\程序文件\VS2010学习\StudyProgram\delegateAndEvent\bin\Debug\delegateAndEvent.exe
+D:\程序文件\VS2010学习\StudyProgram\delegateAndEvent\bin\Debug\delegateAndEvent.pdb
+D:\程序文件\VS2010学习\StudyProgram\delegateAndEvent\obj\x86\Debug\delegateAndEvent.exe
+D:\程序文件\VS2010学习\StudyProgram\delegateAndEvent\obj\x86\Debug\delegateAndEvent.pdb

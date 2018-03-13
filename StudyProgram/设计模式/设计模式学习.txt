@@ -1,0 +1,67 @@
+创建型：
+
+    C#设计模式(1)——单例模式（Singleton Pattern）		//Singleton
+
+    C#设计模式(2)——工厂方法模式（Factory Pattern）		//Factory		
+
+    C#设计模式(3)——抽象工厂模式（Abstract Pattern）
+
+    C#设计模式(4)——建造模式（Builder Pattern）		//Builder
+
+    C#设计模式(5)——原型模式（Prototype Pattern）		//Prototype
+
+结构型：
+
+    C#设计模式(6)——适配器模式（Adapter Pattern）		//Adapter
+
+    C#设计模式(7)——桥接模式（Bridge Pattern）		//Bridge
+
+    C#设计模式(8)——装饰模式（Decorator Pattern）		//Decorator
+
+    C#设计模式(9)——组合模式（Composite Pattern）		//组合模式，现在学习就是虚类继承虚类，然后增加虚方法(或者虚类中所有方法，实现类只要实现部分却不得不实现全部方法)。最终实类继承第二个虚类，重写所有虚方法。
+
+    C#设计模式(10)——外观模式（Facade Pattern）		//Facade
+
+    C#设计模式(11)——享元模式（Flyweight Pattern）		//多用于缓存，全局静态List，判断是否存在item，存在直接取值，否则赋值。当然也可以做成字典，根据主键去匹配。还可以做成redis缓存键值对，根据键值去判断。符合缓存一切的策略，可以提供内测使用效率。
+
+    C#设计模式(12)——代理模式（Proxy Pattern）		//Proxy
+
+
+	总结:适配器模式注重转换接口，将不吻合的接口适配对接
+
+    桥接模式注重分离接口与其实现，支持多维度变化
+
+    组合模式注重统一接口，将“一对多”的关系转化为“一对一”的关系
+
+    装饰者模式注重稳定接口，在此前提下为对象扩展功能
+
+    外观模式注重简化接口，简化组件系统与外部客户程序的依赖关系
+
+    享元模式注重保留接口，在内部使用共享技术对对象存储进行优化
+
+    代理模式注重假借接口，增加间接层来实现灵活控制
+
+
+行为型：
+
+    C#设计模式(13)——模板方法模式（Template Method）		//Template
+
+    C#设计模式(14)——命令模式（Command Pattern）		//Command
+
+    C#设计模式(15)——迭代器模式（Iterator Pattern）
+
+    C#设计模式(16)——观察者模式（Observer Pattern）
+
+    C#设计模式(17)——中介者模式（Mediator Pattern）
+
+    C#设计模式(18)——状态模式（State Pattern）
+
+    C#设计模式(19)——策略模式（Stragety Pattern）
+
+    C#设计模式(20)——责任链模式（Chain of Responsibility Pattern）
+
+    C#设计模式(21)——访问者模式（Vistor Pattern）
+
+    C#设计模式(22)——备忘录模式（Memento Pattern）
+
+    C#设计模式(23)——解释器模式（Interpreter Pattern）

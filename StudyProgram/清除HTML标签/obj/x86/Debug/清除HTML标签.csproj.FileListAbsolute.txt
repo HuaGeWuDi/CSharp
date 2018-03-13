@@ -1,0 +1,5 @@
+D:\程序文件\VS2010学习\StudyProgram\清除HTML标签\bin\Debug\清除HTML标签.exe
+D:\程序文件\VS2010学习\StudyProgram\清除HTML标签\bin\Debug\清除HTML标签.pdb
+D:\程序文件\VS2010学习\StudyProgram\清除HTML标签\obj\x86\Debug\清除HTML标签.exe
+D:\程序文件\VS2010学习\StudyProgram\清除HTML标签\obj\x86\Debug\清除HTML标签.pdb
+D:\程序文件\VS2010学习\StudyProgram\清除HTML标签\obj\x86\Debug\清除HTML标签.csprojResolveAssemblyReference.cache

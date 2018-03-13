@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <meta charset="utf-8" />
+    <meta http-equiv="refresh" content="5" /><!--meta标签自动刷新页面，5秒后刷新-->   
+    <script src="../Scripts/JQuery-1-10-2.js" type="text/javascript"></script>
+    <script src="../Scripts/anjular.js" type="text/javascript"></script>
+    <style>
+        .m-top {
+            margin-top: 10px;
+        }
+
+        .f_left {
+            float: left;
+        }
+
+        .margin_left {
+            margin-left: 10px;
+        }
+
+        .input-group[class*=col-] {
+            float: left;
+        }
+
+        .bg_color {
+            background: white;
+        }
+    </style>
+</head>
+<body ng-controller="myContr">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 m-top ">
+        <div class="input-group col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <!--<span class="glyphicon glyphicon-search" aria-hidden="true"></span> 搜索的小图标-->
+            <span class="input-group-addon bg_color">
+                <span class="glyphicon glyphicon-yen" aria-hidden="true"></span>          
+            </span>
+            <input id="Input" type="text" class="form-control" placeholder="请输入金额" aria-describedby="basic-addon1" ng-change="fnChange()" ng-model="myValue">
+        </div>
+        <div class="input-group col-lg-4 col-md-4 col-sm-4 col-xs-4 ">
+            <span class="input-group-addon bg_color">
+                <span class="glyphicon glyphicon-yen" aria-hidden="true"></span>
+            </span>
+            <input id="CapitalMoney" type="text" class="form-control" placeholder="中文金额" aria-describedby="basic-addon1" disabled="disabled">
+        </div>
+        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 m-top ">
+           <label>大写金额：{{Capital}}</label>
+        </div>
+    </div>
+    <script>
+        angular.module("myApp", []).controller('myContr', ['$scope', function ($scope) {
+            $scope.Capital = "";
+            $scope.fnChange = function () {
+                var total = $("#Input").val();
+                var Capital = ConvertToChinese(total);
+                $scope.Capital = Capital;
+                $("#CapitalMoney").val(Capital);
+                //    var reg = /(^[1-9]([0-9]+)?(\.[0-9]{1,2})?$)|(^(0){1}$)|(^[0-9]\.[0-9]([0-9])?$)/;///^[1-9]{1}\d*(\.\d{1,2})?$/;
+                //    if (total != "") {
+                //        if (!reg.test(total)) {
+                //            //alert("数字不合法！"); $("#Input").val(""); $("#CapitalMoney").val("");
+                //        } else {
+                //            var Capital = ConvertToChinese(total);
+                //            $("#CapitalMoney").val(Capital);
+                //        }
+                //    } else {
+                //        $("#CapitalMoney").val("");
+                //    }
+            }
+        } ]);
+    </script>
+</body>
+</html>

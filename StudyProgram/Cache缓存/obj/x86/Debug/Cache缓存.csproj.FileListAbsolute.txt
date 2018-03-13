@@ -1,0 +1,16 @@
+D:\程序文件\VS2010学习\StudyProgram\Cache缓存\bin\Debug\Cache缓存.exe.config
+D:\程序文件\VS2010学习\StudyProgram\Cache缓存\bin\Debug\Cache缓存.exe
+D:\程序文件\VS2010学习\StudyProgram\Cache缓存\bin\Debug\Cache缓存.pdb
+D:\程序文件\VS2010学习\StudyProgram\Cache缓存\bin\Debug\Newtonsoft.Json.dll
+D:\程序文件\VS2010学习\StudyProgram\Cache缓存\bin\Debug\StudyProgram.dll
+D:\程序文件\VS2010学习\StudyProgram\Cache缓存\bin\Debug\EntityFramework.dll
+D:\程序文件\VS2010学习\StudyProgram\Cache缓存\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\程序文件\VS2010学习\StudyProgram\Cache缓存\bin\Debug\WebActivator.dll
+D:\程序文件\VS2010学习\StudyProgram\Cache缓存\bin\Debug\Assembly学习.exe
+D:\程序文件\VS2010学习\StudyProgram\Cache缓存\bin\Debug\StudyProgram.pdb
+D:\程序文件\VS2010学习\StudyProgram\Cache缓存\bin\Debug\StudyProgram.xml
+D:\程序文件\VS2010学习\StudyProgram\Cache缓存\bin\Debug\EntityFramework.xml
+D:\程序文件\VS2010学习\StudyProgram\Cache缓存\bin\Debug\Assembly学习.pdb
+D:\程序文件\VS2010学习\StudyProgram\Cache缓存\obj\x86\Debug\Cache缓存.exe
+D:\程序文件\VS2010学习\StudyProgram\Cache缓存\obj\x86\Debug\Cache缓存.pdb
+D:\程序文件\VS2010学习\StudyProgram\Cache缓存\obj\x86\Debug\Cache缓存.csprojResolveAssemblyReference.cache

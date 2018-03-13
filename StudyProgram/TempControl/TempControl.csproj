@@ -1,0 +1,338 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{370A4FC9-6051-4069-AB34-7C6A2F29F6D4}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TempControl</RootNamespace>
+    <AssemblyName>TempControl</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="专业学位上报照片\120110199004273329.jpg" />
+    <Content Include="专业学位上报照片\130702198305250657.jpg" />
+    <Content Include="专业学位上报照片\150105198705227325.jpg" />
+    <Content Include="专业学位上报照片\150105199110057317.jpg" />
+    <Content Include="专业学位上报照片\150121197808261951.jpg" />
+    <Content Include="专业学位上报照片\150124198012066978.jpg" />
+    <Content Include="专业学位上报照片\150125197804052621.jpg" />
+    <Content Include="专业学位上报照片\150203198408272122.jpg" />
+    <Content Include="专业学位上报照片\150204198612201811.jpg" />
+    <Content Include="专业学位上报照片\150207198008145023.jpg" />
+    <Content Include="专业学位上报照片\150223198609050011.jpg" />
+    <Content Include="专业学位上报照片\150303198801160026.jpg" />
+    <Content Include="专业学位上报照片\150304198401223020.jpg" />
+    <Content Include="专业学位上报照片\150402198401121318.jpg" />
+    <Content Include="专业学位上报照片\150404198103210913.jpg" />
+    <Content Include="专业学位上报照片\150429199012150056.jpg" />
+    <Content Include="专业学位上报照片\152301197510096540.jpg" />
+    <Content Include="专业学位上报照片\152301198403145516.jpg" />
+    <Content Include="专业学位上报照片\152322199109184529.jpg" />
+    <Content Include="专业学位上报照片\152525199008300033.jpg" />
+    <Content Include="专业学位上报照片\152526198701060025.jpg" />
+    <Content Include="专业学位上报照片\152530199206140019.jpg" />
+    <Content Include="专业学位上报照片\152601198809134135.jpg" />
+    <Content Include="专业学位上报照片\15262719921218551X.jpg" />
+    <Content Include="专业学位上报照片\152827198912275168.jpg" />
+    <Content Include="专业学位上报照片\2011221107.jpg" />
+    <Content Include="专业学位上报照片\2011221113.jpg" />
+    <Content Include="专业学位上报照片\2011221184.jpg" />
+    <Content Include="专业学位上报照片\2011221215.jpg" />
+    <Content Include="专业学位上报照片\2011221238.jpg" />
+    <Content Include="专业学位上报照片\2011223029.jpg" />
+    <Content Include="专业学位上报照片\2012221017.jpg" />
+    <Content Include="专业学位上报照片\2012221021.jpg" />
+    <Content Include="专业学位上报照片\2012221033.jpg" />
+    <Content Include="专业学位上报照片\2012221071.jpg" />
+    <Content Include="专业学位上报照片\2012221110.jpg" />
+    <Content Include="专业学位上报照片\2012221116.jpg" />
+    <Content Include="专业学位上报照片\2012221153.jpg" />
+    <Content Include="专业学位上报照片\2012221201.jpg" />
+    <Content Include="专业学位上报照片\2012221214.jpg" />
+    <Content Include="专业学位上报照片\2012221223.jpg" />
+    <Content Include="专业学位上报照片\2012221225.jpg" />
+    <Content Include="专业学位上报照片\2012221259.jpg" />
+    <Content Include="专业学位上报照片\2012221275.jpg" />
+    <Content Include="专业学位上报照片\2012221281.jpg" />
+    <Content Include="专业学位上报照片\2012221286.jpg" />
+    <Content Include="专业学位上报照片\2012221336.jpg" />
+    <Content Include="专业学位上报照片\2012223020.jpg" />
+    <Content Include="专业学位上报照片\2012223028.jpg" />
+    <Content Include="专业学位上报照片\2012223030.jpg" />
+    <Content Include="专业学位上报照片\2012223056.jpg" />
+    <Content Include="专业学位上报照片\2013221012.jpg" />
+    <Content Include="专业学位上报照片\2013221039.jpg" />
+    <Content Include="专业学位上报照片\2013221050.jpg" />
+    <Content Include="专业学位上报照片\2013221056.jpg" />
+    <Content Include="专业学位上报照片\2013221060.jpg" />
+    <Content Include="专业学位上报照片\2013221072.jpg" />
+    <Content Include="专业学位上报照片\2013221075.jpg" />
+    <Content Include="专业学位上报照片\2013221090.jpg" />
+    <Content Include="专业学位上报照片\2013221091.jpg" />
+    <Content Include="专业学位上报照片\2013221094.jpg" />
+    <Content Include="专业学位上报照片\2013221098.jpg" />
+    <Content Include="专业学位上报照片\2013221124.jpg" />
+    <Content Include="专业学位上报照片\2013221125.jpg" />
+    <Content Include="专业学位上报照片\2013221127.jpg" />
+    <Content Include="专业学位上报照片\2013221134.jpg" />
+    <Content Include="专业学位上报照片\2013221153.jpg" />
+    <Content Include="专业学位上报照片\2013221165.jpg" />
+    <Content Include="专业学位上报照片\2013221166.jpg" />
+    <Content Include="专业学位上报照片\2013221173.jpg" />
+    <Content Include="专业学位上报照片\2013221178.jpg" />
+    <Content Include="专业学位上报照片\2013221179.jpg" />
+    <Content Include="专业学位上报照片\2013221182.jpg" />
+    <Content Include="专业学位上报照片\2013221193.jpg" />
+    <Content Include="专业学位上报照片\2013221196.jpg" />
+    <Content Include="专业学位上报照片\2013221200.jpg" />
+    <Content Include="专业学位上报照片\2013221203.jpg" />
+    <Content Include="专业学位上报照片\2013221205.jpg" />
+    <Content Include="专业学位上报照片\2013221208.jpg" />
+    <Content Include="专业学位上报照片\2013221210.jpg" />
+    <Content Include="专业学位上报照片\2013221218.jpg" />
+    <Content Include="专业学位上报照片\2013221229.jpg" />
+    <Content Include="专业学位上报照片\2013221233.jpg" />
+    <Content Include="专业学位上报照片\2013221238.jpg" />
+    <Content Include="专业学位上报照片\2013221253.jpg" />
+    <Content Include="专业学位上报照片\2013221256.jpg" />
+    <Content Include="专业学位上报照片\2013221257.jpg" />
+    <Content Include="专业学位上报照片\2013221290.jpg" />
+    <Content Include="专业学位上报照片\2013221292.jpg" />
+    <Content Include="专业学位上报照片\2013221311.jpg" />
+    <Content Include="专业学位上报照片\2013221313.jpg" />
+    <Content Include="专业学位上报照片\2013221317.jpg" />
+    <Content Include="专业学位上报照片\2013221337.jpg" />
+    <Content Include="专业学位上报照片\2013221338.jpg" />
+    <Content Include="专业学位上报照片\2013221342.jpg" />
+    <Content Include="专业学位上报照片\2013221347.jpg" />
+    <Content Include="专业学位上报照片\2013221354.jpg" />
+    <Content Include="专业学位上报照片\2013221355.jpg" />
+    <Content Include="专业学位上报照片\2013221363.jpg" />
+    <Content Include="专业学位上报照片\2013221366.jpg" />
+    <Content Include="专业学位上报照片\2013221369.jpg" />
+    <Content Include="专业学位上报照片\2013221383.jpg" />
+    <Content Include="专业学位上报照片\2013221385.jpg" />
+    <Content Include="专业学位上报照片\2013221396.jpg" />
+    <Content Include="专业学位上报照片\2013221405.jpg" />
+    <Content Include="专业学位上报照片\2013221409.jpg" />
+    <Content Include="专业学位上报照片\2013221413.jpg" />
+    <Content Include="专业学位上报照片\2013221414.jpg" />
+    <Content Include="专业学位上报照片\2013221415.jpg" />
+    <Content Include="专业学位上报照片\2013221421.jpg" />
+    <Content Include="专业学位上报照片\2013221423.jpg" />
+    <Content Include="专业学位上报照片\2013221426.jpg" />
+    <Content Include="专业学位上报照片\2013221430.jpg" />
+    <Content Include="专业学位上报照片\2013221431.jpg" />
+    <Content Include="专业学位上报照片\2014212210021.jpg" />
+    <Content Include="专业学位上报照片\2014212210023.jpg" />
+    <Content Include="专业学位上报照片\2014212210024.jpg" />
+    <Content Include="专业学位上报照片\2014212210025.jpg" />
+    <Content Include="专业学位上报照片\2014212210029.jpg" />
+    <Content Include="专业学位上报照片\2014212210035.jpg" />
+    <Content Include="专业学位上报照片\2014212210060.jpg" />
+    <Content Include="专业学位上报照片\2014212210065.jpg" />
+    <Content Include="专业学位上报照片\2014212210073.jpg" />
+    <Content Include="专业学位上报照片\2014212210074.jpg" />
+    <Content Include="专业学位上报照片\2014212210079.jpg" />
+    <Content Include="专业学位上报照片\2014212210083.jpg" />
+    <Content Include="专业学位上报照片\2014212210084.jpg" />
+    <Content Include="专业学位上报照片\2014212210088.jpg" />
+    <Content Include="专业学位上报照片\2014212210089.jpg" />
+    <Content Include="专业学位上报照片\2014212210092.jpg" />
+    <Content Include="专业学位上报照片\2014212210096.jpg" />
+    <Content Include="专业学位上报照片\2014212210103.jpg" />
+    <Content Include="专业学位上报照片\2014212210114.jpg" />
+    <Content Include="专业学位上报照片\2014212210116.jpg" />
+    <Content Include="专业学位上报照片\2014212210117.jpg" />
+    <Content Include="专业学位上报照片\2014212210118.jpg" />
+    <Content Include="专业学位上报照片\2014212210119.jpg" />
+    <Content Include="专业学位上报照片\2014212210123.jpg" />
+    <Content Include="专业学位上报照片\2014212210124.jpg" />
+    <Content Include="专业学位上报照片\2014212210125.jpg" />
+    <Content Include="专业学位上报照片\2014212210130.jpg" />
+    <Content Include="专业学位上报照片\2014212210133.jpg" />
+    <Content Include="专业学位上报照片\2014212210135.jpg" />
+    <Content Include="专业学位上报照片\2014212210136.jpg" />
+    <Content Include="专业学位上报照片\2014212210137.jpg" />
+    <Content Include="专业学位上报照片\2014212210139.jpg" />
+    <Content Include="专业学位上报照片\2014212210144.jpg" />
+    <Content Include="专业学位上报照片\2014212210145.jpg" />
+    <Content Include="专业学位上报照片\2014212210147.jpg" />
+    <Content Include="专业学位上报照片\2014212210150.jpg" />
+    <Content Include="专业学位上报照片\2014212210152.jpg" />
+    <Content Include="专业学位上报照片\2014212210153.jpg" />
+    <Content Include="专业学位上报照片\2014212210154.jpg" />
+    <Content Include="专业学位上报照片\2014212210155.jpg" />
+    <Content Include="专业学位上报照片\2014212210158.jpg" />
+    <Content Include="专业学位上报照片\2014212210159.jpg" />
+    <Content Include="专业学位上报照片\2014212210162.jpg" />
+    <Content Include="专业学位上报照片\2014212210165.jpg" />
+    <Content Include="专业学位上报照片\2014212210185.jpg" />
+    <Content Include="专业学位上报照片\2014212210186.jpg" />
+    <Content Include="专业学位上报照片\2014212210188.jpg" />
+    <Content Include="专业学位上报照片\2014212210192.jpg" />
+    <Content Include="专业学位上报照片\2014212210193.jpg" />
+    <Content Include="专业学位上报照片\2014212210194.jpg" />
+    <Content Include="专业学位上报照片\2014212210197.jpg" />
+    <Content Include="专业学位上报照片\2014212210199.jpg" />
+    <Content Include="专业学位上报照片\2014212210202.jpg" />
+    <Content Include="专业学位上报照片\2014212210204.jpg" />
+    <Content Include="专业学位上报照片\2014212210206.jpg" />
+    <Content Include="专业学位上报照片\2014212210207.jpg" />
+    <Content Include="专业学位上报照片\2014212210208.jpg" />
+    <Content Include="专业学位上报照片\2014212210209.jpg" />
+    <Content Include="专业学位上报照片\2014212210211.jpg" />
+    <Content Include="专业学位上报照片\2014212210218.jpg" />
+    <Content Include="专业学位上报照片\2014212210221.jpg" />
+    <Content Include="专业学位上报照片\2014212210225.jpg" />
+    <Content Include="专业学位上报照片\2014212210227.jpg" />
+    <Content Include="专业学位上报照片\2014212210232.jpg" />
+    <Content Include="专业学位上报照片\2014212210235.jpg" />
+    <Content Include="专业学位上报照片\2014212210237.jpg" />
+    <Content Include="专业学位上报照片\2014212210238.jpg" />
+    <Content Include="专业学位上报照片\2014212210241.jpg" />
+    <Content Include="专业学位上报照片\2014212210242.jpg" />
+    <Content Include="专业学位上报照片\2014212210247.jpg" />
+    <Content Include="专业学位上报照片\2014212210248.jpg" />
+    <Content Include="专业学位上报照片\2014212210250.jpg" />
+    <Content Include="专业学位上报照片\2014212210253.jpg" />
+    <Content Include="专业学位上报照片\2014212210254.jpg" />
+    <Content Include="专业学位上报照片\2014212210258.jpg" />
+    <Content Include="专业学位上报照片\2014212210259.jpg" />
+    <Content Include="专业学位上报照片\2014212210262.jpg" />
+    <Content Include="专业学位上报照片\2014212210263.jpg" />
+    <Content Include="专业学位上报照片\2014212210269.jpg" />
+    <Content Include="专业学位上报照片\2014212210271.jpg" />
+    <Content Include="专业学位上报照片\2014212210275.jpg" />
+    <Content Include="专业学位上报照片\2014212210278.jpg" />
+    <Content Include="专业学位上报照片\2014212210279.jpg" />
+    <Content Include="专业学位上报照片\2014212210280.jpg" />
+    <Content Include="专业学位上报照片\2014212210283.jpg" />
+    <Content Include="专业学位上报照片\2014212210284.jpg" />
+    <Content Include="专业学位上报照片\2014212210287.jpg" />
+    <Content Include="专业学位上报照片\2014212210288.jpg" />
+    <Content Include="专业学位上报照片\2014212210289.jpg" />
+    <Content Include="专业学位上报照片\2014212210290.jpg" />
+    <Content Include="专业学位上报照片\2014212210291.jpg" />
+    <Content Include="专业学位上报照片\2014212210294.jpg" />
+    <Content Include="专业学位上报照片\2014212210295.jpg" />
+    <Content Include="专业学位上报照片\2014212210298.jpg" />
+    <Content Include="专业学位上报照片\2014212210300.jpg" />
+    <Content Include="专业学位上报照片\2014212210301.jpg" />
+    <Content Include="专业学位上报照片\2014212210302.jpg" />
+    <Content Include="专业学位上报照片\2014212210303.jpg" />
+    <Content Include="专业学位上报照片\2014212210305.jpg" />
+    <Content Include="专业学位上报照片\2014212210306.jpg" />
+    <Content Include="专业学位上报照片\2014212210307.jpg" />
+    <Content Include="专业学位上报照片\2014212210311.jpg" />
+    <Content Include="专业学位上报照片\2014212210314.jpg" />
+    <Content Include="专业学位上报照片\2014212210316.jpg" />
+    <Content Include="专业学位上报照片\2014212210317.jpg" />
+    <Content Include="专业学位上报照片\2014212210320.jpg" />
+    <Content Include="专业学位上报照片\2014212210321.jpg" />
+    <Content Include="专业学位上报照片\2014212210326.jpg" />
+    <Content Include="专业学位上报照片\2014212210336.jpg" />
+    <Content Include="专业学位上报照片\2014212210339.jpg" />
+    <Content Include="专业学位上报照片\2014212210343.jpg" />
+    <Content Include="专业学位上报照片\2014212210346.jpg" />
+    <Content Include="专业学位上报照片\2014212210349.jpg" />
+    <Content Include="专业学位上报照片\2014212210359.jpg" />
+    <Content Include="专业学位上报照片\2014212210362.jpg" />
+    <Content Include="专业学位上报照片\2015212020055.jpg" />
+    <Content Include="专业学位上报照片\2015212030079.jpg" />
+    <Content Include="专业学位上报照片\2015212080024.jpg" />
+    <Content Include="学历博士学位上报照片\130434198610050058.jpg" />
+    <Content Include="学历博士学位上报照片\142303198704178320.jpg" />
+    <Content Include="学历博士学位上报照片\150102196909222229.jpg" />
+    <Content Include="学历博士学位上报照片\15010219751023218X.jpg" />
+    <Content Include="学历博士学位上报照片\150102197706112032.jpg" />
+    <Content Include="学历博士学位上报照片\150102198708294129.jpg" />
+    <Content Include="学历博士学位上报照片\150102198808071117.jpg" />
+    <Content Include="学历博士学位上报照片\150102198808161120.jpg" />
+    <Content Include="学历博士学位上报照片\150105198203204617.jpg" />
+    <Content Include="学历博士学位上报照片\150105198302147320.jpg" />
+    <Content Include="学历博士学位上报照片\150121198705110717.jpg" />
+    <Content Include="学历博士学位上报照片\150122197906030520.jpg" />
+    <Content Include="学历博士学位上报照片\150125198310100069.jpg" />
+    <Content Include="学历博士学位上报照片\150202198810040614.jpg" />
+    <Content Include="学历博士学位上报照片\150204198209142225.jpg" />
+    <Content Include="学历博士学位上报照片\150204198805130634.jpg" />
+    <Content Include="学历博士学位上报照片\150221197706030023.jpg" />
+    <Content Include="学历博士学位上报照片\150223198809222711.jpg" />
+    <Content Include="学历博士学位上报照片\150430198802132371.jpg" />
+    <Content Include="学历博士学位上报照片\152105199009051262.jpg" />
+    <Content Include="学历博士学位上报照片\152201198809240526.jpg" />
+    <Content Include="学历博士学位上报照片\152301197610222049.jpg" />
+    <Content Include="学历博士学位上报照片\152323198806203731.jpg" />
+    <Content Include="学历博士学位上报照片\152326198712250069.jpg" />
+    <Content Include="学历博士学位上报照片\152601198901013643.jpg" />
+    <Content Include="学历博士学位上报照片\152623198001250027.jpg" />
+    <Content Include="学历博士学位上报照片\15262919840608351x.jpg" />
+    <Content Include="学历博士学位上报照片\152631198009013325.jpg" />
+    <Content Include="学历博士学位上报照片\2011304011.jpg" />
+    <Content Include="学历博士学位上报照片\2012308005.jpg" />
+    <Content Include="学历博士学位上报照片\2013306010.jpg" />
+    <Content Include="学历博士学位上报照片\2014302050002.jpg" />
+    <Content Include="学历博士学位上报照片\220724198212221419.jpg" />
+    <Content Include="学历博士学位上报照片\410328198304224018.jpg" />
+    <Content Include="学历博士学位上报照片\620422198503255139.jpg" />
+    <Content Include="学历博士学位上报照片\E0740928.jpg" />
+    <Content Include="学历博士学位上报照片\E0993624.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\StudyProgram\StudyProgram.csproj">
+      <Project>{D35B69B9-4147-43DE-89B5-0EA7DDEA66FB}</Project>
+      <Name>StudyProgram</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

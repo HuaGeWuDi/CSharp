@@ -1,0 +1,4 @@
+D:\程序文件\VS2010学习\StudyProgram\输出一到一百的勾股数\bin\Debug\输出一到一百的勾股数.exe
+D:\程序文件\VS2010学习\StudyProgram\输出一到一百的勾股数\bin\Debug\输出一到一百的勾股数.pdb
+D:\程序文件\VS2010学习\StudyProgram\输出一到一百的勾股数\obj\x86\Debug\输出一到一百的勾股数.exe
+D:\程序文件\VS2010学习\StudyProgram\输出一到一百的勾股数\obj\x86\Debug\输出一到一百的勾股数.pdb

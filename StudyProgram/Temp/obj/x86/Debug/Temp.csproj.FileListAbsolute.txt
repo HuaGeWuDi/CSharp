@@ -1,0 +1,4 @@
+D:\程序文件\VS2010学习\StudyProgram\Temp\bin\Debug\Temp.exe
+D:\程序文件\VS2010学习\StudyProgram\Temp\bin\Debug\Temp.pdb
+D:\程序文件\VS2010学习\StudyProgram\Temp\obj\x86\Debug\Temp.exe
+D:\程序文件\VS2010学习\StudyProgram\Temp\obj\x86\Debug\Temp.pdb

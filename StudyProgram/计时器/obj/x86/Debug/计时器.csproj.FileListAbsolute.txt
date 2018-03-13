@@ -1,0 +1,4 @@
+D:\程序文件\VS2010学习\StudyProgram\计时器\bin\Debug\计时器.exe
+D:\程序文件\VS2010学习\StudyProgram\计时器\bin\Debug\计时器.pdb
+D:\程序文件\VS2010学习\StudyProgram\计时器\obj\x86\Debug\计时器.exe
+D:\程序文件\VS2010学习\StudyProgram\计时器\obj\x86\Debug\计时器.pdb

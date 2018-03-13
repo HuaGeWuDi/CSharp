@@ -1,0 +1,4 @@
+D:\程序文件\VS2010学习\StudyProgram\Task学习\bin\Debug\Task学习.exe
+D:\程序文件\VS2010学习\StudyProgram\Task学习\bin\Debug\Task学习.pdb
+D:\程序文件\VS2010学习\StudyProgram\Task学习\obj\x86\Debug\Task学习.exe
+D:\程序文件\VS2010学习\StudyProgram\Task学习\obj\x86\Debug\Task学习.pdb

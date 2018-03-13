@@ -1,0 +1,24 @@
+#navList a:link {
+    color: #fff;
+    /* text-shadow: 3px 3px 3px #000; */
+}
+
+    color: #fff;
+#profile_block   95%
+.catListTitle
+
+.sidebar-block h3  100%       margin-bottom: -5px;
+
+#widget_my_zzk      padding: 17px 0 0 15px;
+
+
+.CalTitle {
+    width: 275px;
+}
+
+#blogCalendar td, #blogCalendar th {
+    padding: 4px;
+}
+#blog-comments-placeholder {
+    display: none;
+}

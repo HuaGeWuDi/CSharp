@@ -1,0 +1,5 @@
+D:\程序文件\VS2010学习\StudyProgram\前端学习\bin\前端学习.dll
+D:\程序文件\VS2010学习\StudyProgram\前端学习\bin\前端学习.pdb
+D:\程序文件\VS2010学习\StudyProgram\前端学习\obj\Debug\前端学习.dll
+D:\程序文件\VS2010学习\StudyProgram\前端学习\obj\Debug\前端学习.pdb
+D:\程序文件\VS2010学习\StudyProgram\前端学习\obj\Debug\前端学习.csprojResolveAssemblyReference.cache

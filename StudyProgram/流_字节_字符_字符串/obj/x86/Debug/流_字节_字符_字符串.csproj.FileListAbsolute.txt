@@ -1,0 +1,4 @@
+D:\程序文件\VS2010学习\StudyProgram\流_字节_字符_字符串\bin\Debug\流_字节_字符_字符串.exe
+D:\程序文件\VS2010学习\StudyProgram\流_字节_字符_字符串\bin\Debug\流_字节_字符_字符串.pdb
+D:\程序文件\VS2010学习\StudyProgram\流_字节_字符_字符串\obj\x86\Debug\流_字节_字符_字符串.exe
+D:\程序文件\VS2010学习\StudyProgram\流_字节_字符_字符串\obj\x86\Debug\流_字节_字符_字符串.pdb

@@ -1,0 +1,6 @@
+D:\程序文件\VS2010学习\StudyProgram\zip压缩与解压\bin\Debug\zip压缩与解压.exe
+D:\程序文件\VS2010学习\StudyProgram\zip压缩与解压\bin\Debug\zip压缩与解压.pdb
+D:\程序文件\VS2010学习\StudyProgram\zip压缩与解压\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\程序文件\VS2010学习\StudyProgram\zip压缩与解压\obj\x86\Debug\zip压缩与解压.exe
+D:\程序文件\VS2010学习\StudyProgram\zip压缩与解压\obj\x86\Debug\zip压缩与解压.pdb
+D:\程序文件\VS2010学习\StudyProgram\zip压缩与解压\obj\x86\Debug\zip压缩与解压.csprojResolveAssemblyReference.cache
