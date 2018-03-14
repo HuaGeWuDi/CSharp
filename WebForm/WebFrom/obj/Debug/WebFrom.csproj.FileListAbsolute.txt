@@ -1,0 +1,5 @@
+D:\程序文件\VS2010学习\WebForm\WebFrom\bin\WebFrom.dll
+D:\程序文件\VS2010学习\WebForm\WebFrom\bin\WebFrom.pdb
+D:\程序文件\VS2010学习\WebForm\WebFrom\obj\Debug\WebFrom.dll
+D:\程序文件\VS2010学习\WebForm\WebFrom\obj\Debug\WebFrom.pdb
+D:\程序文件\VS2010学习\WebForm\WebFrom\obj\Debug\WebFrom.csprojResolveAssemblyReference.cache

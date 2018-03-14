@@ -1,0 +1,4 @@
+D:\程序文件\VS2010学习\WebForm\MVC\bin\MVC.dll
+D:\程序文件\VS2010学习\WebForm\MVC\bin\MVC.pdb
+D:\程序文件\VS2010学习\WebForm\MVC\obj\Debug\MVC.dll
+D:\程序文件\VS2010学习\WebForm\MVC\obj\Debug\MVC.pdb

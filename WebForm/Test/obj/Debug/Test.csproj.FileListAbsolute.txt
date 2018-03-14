@@ -1,0 +1,4 @@
+D:\程序文件\VS2010学习\WebForm\Test\bin\Debug\Test.dll
+D:\程序文件\VS2010学习\WebForm\Test\bin\Debug\Test.pdb
+D:\程序文件\VS2010学习\WebForm\Test\obj\Debug\Test.dll
+D:\程序文件\VS2010学习\WebForm\Test\obj\Debug\Test.pdb
