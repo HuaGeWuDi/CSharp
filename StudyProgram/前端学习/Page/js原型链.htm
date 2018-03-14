@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script src="http://localhost:37603/Scripts/JQuery-1-10-2.js" type="text/javascript"></script>
+</head>
+<body>
+    <script type="text/javascript">
+        $(function () {
+
+            var p1 = new Person("huage", "18", "男神");
+            var p2 = new Person("wudi", "19", "男");
+            //person1 和 person2 都是 构造函数 Person 的实例
+            //所以constructor只想构造函数 Person
+            console.log(p1.constructor);
+            console.log(Person);
+            console.log(p2.constructor == Person);
+
+            con(con.constructor);
+            con(con.constructor == Function);
+
+            con(typeof (p1)); //object
+
+            con("p1的构造函数原型对象：")
+            con(p1.__proto__);
+
+            con("原型对象");
+            con(Person.prototype.constructor == Person);
+            con(con.prototype);
+
+            con("con的类型")
+            con(typeof (con))
+            con("Person的类型与他实例的类型")
+            con(typeof Person);
+            con(typeof p1);
+
+            con("Person原型对象的类型")
+            con(typeof Person.prototype); //object  (var A=new Person();Person.prototype=A  A是普通对象)
+
+            con(typeof Function.prototype); //function    (var A=new Function(); Function.prototype=A;  A是函数对象。。。)
+
+            con(typeof con.prototype); //object
+
+            con("查看普通对象,函数对象是否有prototype属性")
+            var obj = {};
+            con(obj.prototype); //查看普通对象是否有prototype（原型）属性    undefined
+            con(p1.prototype); //undefined
+            con(con.prototype); //Object
+            con(Person.prototype); //Object
+
+            //---------prototype(原型)这一属性只想函数的原型对象-----------
+            //在 JavaScript 中，每当定义一个对象（函数也是对象）时候，对象中都会包含一些预定义的属性。其中每个函数对象都有一个prototype 属性，这个属性指向函数的原型对象
+            //也就是说只有函数对象，才会有prototype（原型）这一属性
+            //普通对象没有prototype这一属性
+
+
+            //--------------(__proto__)
+            //JS 在创建对象（不论是普通对象还是函数对象）的时候，都有一个叫做__proto__ 的内置属性，用于指向创建它的构造函数的原型对象。
+
+            con("构造函数的原型对象：")
+            con(p1.__proto__); //var p1 = new Person("huage", "18", "男神")  不是通过 new Function创建的对象，所以他不是函数对象，所以他没有prototype（原型）属性，有__proto__属性为（构造函数Person的原型对象  var A=new Person Person.prototype=A 普通对象就是Object）  
+            con(Person.__proto__); //var Perosn=new Function();  是通过 new Function创建的对象，所以他是函数对象，所以他有prototype（原型）属性
+            con(p1.__proto__ == p2.__proto__);
+            con(p1.__proto__ == Person.__proto__);
+
+            ///凡是通过 new Function() 创建的对象都是函数对象，其他的都是普通对象。f1,f2,归根结底都是通过 new Function()的方式进行创建的。Function Object 也都是通过 New 
+
+
+
+            //结论
+            con(p1.__proto__ == Person.prototype);
+            con(Person.prototype.constructor == Person);
+            con(p1.constructor == Person);
+
+
+            con(p1.__proto__ == p1.constructor.prototype);
+            con(p1.__proto__ == Person.prototype.constructor.prototype);
+
+
+            con(Function.prototype);
+
+            con(Object.prototype.__proto__);
+
+
+            ////实例（tidy）和 原型对象（dog.prototype）存在一个连接。
+            //不过，要明确的真正重要的一点就是，这个连接存在于实例（tidy）与构造函数的原型对象（dog.prototype）之间，而不是存在于实例（tidy）与构造函数（dog）之间。
+
+        });
+
+        function Person(name, age, sex) {
+            this.name = name;
+            this.age = age;
+            this.sex = sex;
+        }
+        function con(str) {
+            console.log(str);
+        }
+    </script>
+</body>
+</html>
