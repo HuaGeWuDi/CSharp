@@ -3,4 +3,3 @@ D:\程序文件\VS2010学习\StudyProgram\接口的动态调用\bin\Debug\接口
 D:\程序文件\VS2010学习\StudyProgram\接口的动态调用\bin\Debug\接口的动态调用.pdb
 D:\程序文件\VS2010学习\StudyProgram\接口的动态调用\obj\x86\Debug\接口的动态调用.exe
 D:\程序文件\VS2010学习\StudyProgram\接口的动态调用\obj\x86\Debug\接口的动态调用.pdb
-D:\程序文件\VS2010学习\StudyProgram\接口的动态调用\obj\x86\Debug\接口的动态调用.csprojResolveAssemblyReference.cache

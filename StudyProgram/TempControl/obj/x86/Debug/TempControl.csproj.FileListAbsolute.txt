@@ -13,4 +13,3 @@ D:\程序文件\VS2010学习\StudyProgram\TempControl\bin\Debug\StudyProgram.pdb
 D:\程序文件\VS2010学习\StudyProgram\TempControl\bin\Debug\StudyProgram.xml
 D:\程序文件\VS2010学习\StudyProgram\TempControl\bin\Debug\EntityFramework.xml
 D:\程序文件\VS2010学习\StudyProgram\TempControl\bin\Debug\Assembly学习.pdb
-D:\程序文件\VS2010学习\StudyProgram\TempControl\obj\x86\Debug\TempControl.csprojResolveAssemblyReference.cache

@@ -55,6 +55,7 @@
     <Content Include="Content\optinal.css" />
     <Content Include="Page\CSS_引入.htm" />
     <Content Include="Page\js原型链.htm" />
+    <Content Include="Page\闭包.htm" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

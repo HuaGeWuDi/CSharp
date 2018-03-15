@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script src="http://localhost:37603/Scripts/JQuery-1-10-2.js" type="text/javascript"></script>
+</head>
+<body>
+    <script type="text/javascript">
+        $(function () {
+            var a = new A();
+            a.inc();
+            a.inc();
+
+            B();
+
+            //什么是闭包？这就是闭包！
+            //有权访问另一个函数作用域内变量的函数都是闭包
+
+            var c = C();
+            c();
+            c();
+
+
+            con("test:");
+            C();
+            C();
+
+            con("陷阱：");
+            var funcs = createFunction();
+
+            for (var i = 0; i < funcs.length; i++) {
+                con(funcs[i]());
+            }
+
+            //这一看以为输出0-9；其实它输出10个10;
+            //函数带()才是执行函数！ 单纯的一句 var f = function() { alert('Hi'); }; 是不会弹窗的，后面接一句 f(); 才会执行函数内部的代码
+
+
+            ///总结一下
+            //闭包就是一个函数引用另外一个函数的变量，因为变量被引用着所以不会被回收，因此可以用来封装一个私有变量。这是优点也是缺点，不必要的闭包只会徒增内存消耗！
+            //另外使用闭包也要注意变量的值是否符合你的要求，因为他就像一个静态私有变量一样。闭包通常会跟很多东西混搭起来，接触多了才能加深理解，这里只是开个头说说基础性的东西
+        });
+
+        function con(str) {
+            console.log(str);
+        }
+
+        function A() {
+            var n = 0;
+            this.inc = function () {
+                n++;
+                console.log(n);
+            };
+        }
+
+        function B() {
+            var n = 0;
+            function inc() {
+                n++;
+                console.log(n);
+            }
+            inc();
+            inc();
+        }
+
+        function C() {
+            var n = 0;
+            function inc() {
+                n++;
+                console.log(n);
+            }
+            return inc;
+        }
+
+        function createFunction() {
+            var res = new Array();
+            for (var i = 0; i < 10; i++) {
+                res[i] = function () {
+                    return i;
+                }
+            }
+            return res;
+        }
+
+    </script>
+</body>
+</html>

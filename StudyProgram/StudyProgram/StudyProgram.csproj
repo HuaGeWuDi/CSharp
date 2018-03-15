@@ -791,6 +791,8 @@
     <Compile Include="Common\Common.cs" />
     <Compile Include="Common\ComomHelper.cs" />
     <Compile Include="Common\DBHelper.cs" />
+    <Compile Include="Common\InfoHelper.cs" />
+    <Compile Include="Common\SSHelper.cs" />
     <Compile Include="Common\TreeHelper.cs" />
     <Compile Include="Content\ueditor\net\App_Code\Config.cs" />
     <Compile Include="Content\ueditor\net\App_Code\ConfigHandler.cs" />
