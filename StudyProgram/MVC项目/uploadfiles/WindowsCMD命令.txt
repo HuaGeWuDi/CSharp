@@ -1,0 +1,7 @@
+ipConfig 查看电脑IP地址
+ping 127.0.0.1 查看电脑是否能ping通服务器
+gpedit.msc  进入电脑的本地组策略编辑器 （计算机配置，用户配置）
+dxdiag 可以查看自己电脑的基本信息（需要联网）
+services.msc 查看本地服务
+
+

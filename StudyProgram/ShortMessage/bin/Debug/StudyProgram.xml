@@ -231,6 +231,40 @@
             <param name="list"></param>
             <returns></returns>
         </member>
+        <member name="M:StudyProgram.Common.CCHelper.SetCookie(System.String,System.String)">
+            <summary>
+            新增，修改
+            </summary>
+            <param name="key"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:StudyProgram.Common.CCHelper.GetCookie(System.String)">
+            <summary>
+            获取Cookie
+            </summary>
+            <param name="key"></param>
+            <returns></returns>
+        </member>
+        <member name="M:StudyProgram.Common.CCHelper.RemoveCookie">
+            <summary>
+            删除cookie
+            </summary>
+            <param name="key"></param>
+        </member>
+        <member name="M:StudyProgram.Common.CCHelper.MD5Str(System.String)">
+            <summary>
+            MD5加密
+            </summary>
+            <param name="str"></param>
+            <returns></returns>
+        </member>
+        <member name="M:StudyProgram.Common.CCHelper.SetCookieDate(System.Web.HttpCookie,StudyProgram.Common.E_Time)">
+            <summary>
+            设置Cookie时间
+            </summary>
+            <param name="oCookie"></param>
+            <param name="expires"></param>
+        </member>
         <member name="F:StudyProgram.SiteMaster.HeadContent">
             <summary>
             HeadContent 控件。
@@ -681,6 +715,15 @@
         <member name="F:StudyProgram.Pages.Study.dataGrid">
             <summary>
             dataGrid 控件。
+            </summary>
+            <remarks>
+            自动生成的字段。
+            若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+            </remarks>
+        </member>
+        <member name="F:StudyProgram.Pages.CookieTest.form1">
+            <summary>
+            form1 控件。
             </summary>
             <remarks>
             自动生成的字段。

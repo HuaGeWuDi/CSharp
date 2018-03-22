@@ -17,13 +17,15 @@
         <input type="file" name="file" id="file" />
         <input type="button" value="上传" onclick="fnUpload()" />
         </form>
+        <input type="button" value="上传" onclick="fnUpload2()" />
         <form id="my_form" method="post" action="../../Upload/dowmLoad" enctype="multipart/form-data">
         <input type="button" value="下载" onclick="fnDownfile()" />
         </form>
+        <input type="button" value="下载" onclick="fnDownFile2()" />
     </div>
     <script type="text/javascript">
         $(function () {
-            alert("页面加载完成");
+            //alert("页面加载完成");
         });
         function fnUpload() {
             var formData = new FormData($("#my_formdata")[0]);
@@ -47,8 +49,39 @@
 
             });
         }
+
+        function fnUpload2() {
+            // var formData = new FormData($("#my_formdata")[0]); //这个试用于有form的元素
+
+            var formData = new FormData();
+            formData.append("file", $("#file")[0].files[0]); //获取文件法二   这个试用于单个元素试用
+
+            $.ajax({
+                url: '../../Upload/uplodFile',
+                type: 'POST',
+                async: false,
+                data: formData,
+                contentType: false,
+                processData: false,  //必须false才会避开jQuery对 formdata 的默认处理
+                success: function (res) {
+                    alert(res);
+                },
+                error: function (res) {
+                    alert("请求失败");
+                }
+
+            });
+        }
+
         function fnDownfile() {
             $("#my_form").submit();
+        }
+
+        function fnDownFile2() {
+            var $Form = $("<form method='post'></form>")
+            $Form.attr("action", "../../Upload/dowmLoad");
+            $(document.body).append($Form);
+            $Form.submit();
         }
     </script>
 </body>

@@ -707,7 +707,9 @@
     <Content Include="Content\ueditor\ueditor.parse.js" />
     <Content Include="Content\ueditor\ueditor.parse.min.js" />
     <Content Include="Images\1.jpg" />
+    <Content Include="Images\test.txt" />
     <Content Include="Pages\baidutest.htm" />
+    <Content Include="Pages\CookieTest.aspx" />
     <Content Include="Pages\DatatableToJson.aspx" />
     <Content Include="Pages\DownLoad_Zip.aspx" />
     <Content Include="Pages\layout.htm" />
@@ -788,6 +790,8 @@
       <DependentUpon>Register.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\DontDropDbJustCreateTablesIfModelChangedStart.cs" />
+    <Compile Include="Common\AESHelper.cs" />
+    <Compile Include="Common\CCHelper.cs" />
     <Compile Include="Common\Common.cs" />
     <Compile Include="Common\ComomHelper.cs" />
     <Compile Include="Common\DBHelper.cs" />
@@ -823,6 +827,13 @@
     <Compile Include="LeiKu\RequestHelper.cs" />
     <Compile Include="LeiKu\TestDbContext.cs" />
     <Compile Include="Model\Student.cs" />
+    <Compile Include="Pages\CookieTest.aspx.cs">
+      <DependentUpon>CookieTest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\CookieTest.aspx.designer.cs">
+      <DependentUpon>CookieTest.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Pages\DatatableToJson.aspx.cs">
       <DependentUpon>DatatableToJson.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -941,6 +952,7 @@
     <None Include="Content\ueditor\third-party\video-js\font\vjs.ttf" />
     <None Include="Content\ueditor\third-party\video-js\font\vjs.woff" />
     <Content Include="packages.config" />
+    <Content Include="Pages\huage\File.zip" />
     <None Include="Pages\test.json" />
     <None Include="Pages\treeJson.json" />
   </ItemGroup>
@@ -958,7 +970,7 @@
         <WebProjectProperties>
           <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>37603</DevelopmentServerPort>
+          <DevelopmentServerPort>6202</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>
           </IISUrl>
